@@ -149,11 +149,11 @@ figure_Edit <- ggplot() +
     alpha = 0.6,
     bins = 200,
     linewidth = 1.0
-  )
+  ) +
   labs(
     x = "TE Length (bp)",
     y = "TE Count",
-    colour = ""
+    colour = "" 
   ) +
   coord_cartesian(xlim= c(0,300)
   ) +
